@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_producer/pom.xml" />
         <option value="$PROJECT_DIR$/dcloud_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/dcloud_consumer1/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud_consumer" />
         <module name="cloud_producer" />
-        <module name="dcloud_consumer" />
+        <module name="cloud_turbine" />
+        <module name="dcloud_consumer1" />
         <module name="eureka_server" />
       </profile>
     </annotationProcessing>

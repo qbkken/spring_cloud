@@ -1,0 +1,36 @@
+服务注册中心,端口 8000
+http://localhost:8000/
+
+
+服务提供者 http接口测试,端口9000
+http://localhost:9000/hello?name=neo
+
+服务消费者1 http接口测试,端口9001
+http://localhost:9001/hello/neo
+
+
+服务消费者2 http接口测试,端口9002
+http://localhost:9002/hello/neo
+
+
+服务消费者3 http接口测试,端口9003
+http://localhost:9003/hello/neo
+
+
+
+熔断监控:
+http://localhost:8001/hystrix
+
+输入 http://localhost:8001/turbine.stream
+
+
+qbkSpringCloud
+
+
+
+Current time	2018-04-09T16:57:43 +0800
+Uptime	00:07
+Lease expiration enabled	false
+Renews threshold	3
+Renews (last min)	0
+EMERGENCY! EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT. RENEWALS ARE LESSER THAN THRESHOLD AND HENCE THE INSTANCES ARE NOT BEING EXPIRED JUST TO BE SAFE
