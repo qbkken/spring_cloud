@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_git" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_turbine" charset="UTF-8" />

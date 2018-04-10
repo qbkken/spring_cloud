@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_turbine/pom.xml" />
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix_1/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_config_git/pom.xml" />
       </list>
     </option>
   </component>

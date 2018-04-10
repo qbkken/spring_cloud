@@ -18,11 +18,20 @@ http://localhost:9003/hello/neo
 
 
 
-熔断监控:
+熔断监控,端口8001:
 http://localhost:8001/hystrix
 
 输入 http://localhost:8001/turbine.stream
 
+
+
+配置中心 git,端口8002
+
+   获取dev配置文件的配置项
+   http://localhost:8002/neo-config/dev
+   http://localhost:8002/neo-config-dev.properties
+   获取test配置文件的配置项
+   http://localhost:8002/neo-config-test.properties
 
 qbkSpringCloud
 
@@ -34,3 +43,8 @@ Lease expiration enabled	false
 Renews threshold	3
 Renews (last min)	0
 EMERGENCY! EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT. RENEWALS ARE LESSER THAN THRESHOLD AND HENCE THE INSTANCES ARE NOT BEING EXPIRED JUST TO BE SAFE
+
+
+
+每个项目都散落着各种配置文件，如果采用分布式的开发模式，需要的配置文件随着服务增加而不断增多。某一个基础服务信息变更，都会引起一系列的更新和重启，运维苦不堪言也容易出错。配置中心便是解决此类问题的灵丹妙药。
+
