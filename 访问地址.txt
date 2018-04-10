@@ -3,19 +3,19 @@ http://localhost:8000/
 
 
 服务提供者 http接口测试,端口9000
-http://localhost:9000/hello?name=neo
+   接口是普通url传参
+   http://localhost:9000/hello?name=neo
 
 服务消费者1 http接口测试,端口9001
 http://localhost:9001/hello/neo
 
 
-服务消费者2 http接口测试,端口9002
+服务消费者2 http接口测试,端口9002 (restful)
 http://localhost:9002/hello/neo
 
 
-服务消费者3 http接口测试,端口9003
+服务消费者3 http接口测试,端口9003 (restful)
 http://localhost:9003/hello/neo
-
 
 
 熔断监控,端口8001:
@@ -24,14 +24,27 @@ http://localhost:8001/hystrix
 输入 http://localhost:8001/turbine.stream
 
 
-
-配置中心 git,端口8002
+配置中心服务端  git,端口8002
 
    获取dev配置文件的配置项
    http://localhost:8002/neo-config/dev
    http://localhost:8002/neo-config-dev.properties
    获取test配置文件的配置项
    http://localhost:8002/neo-config-test.properties
+    改变 git上的配置文件内容,在请求一次,内容同步会变;
+
+配置中心 客户端 9004
+  http://localhost:9004/hello
+
+
+服务网关zuul,端口8003
+    访问服务提供者
+   http://localhost:8003/cloud-producer/hello?name=123
+    访问服务消费者
+    http://localhost:8003/cloud_consumer_hystrix/hello/123666
+    http://localhost:8003/cloud_consumer_hystrix_1/hello/123666888
+    http://localhost:8003/cloud_consumer/hello/123666888
+
 
 qbkSpringCloud
 

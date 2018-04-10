@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud_config_client" />
         <module name="cloud_config_git" />
         <module name="cloud_eureka" />
         <module name="cloud_producer" />
         <module name="cloud_turbine" />
+        <module name="cloud_zuul" />
         <module name="dcloud_consumer1" />
         <module name="dcloud_consumer_hystrix" />
         <module name="dcloud_consumer_hystrix_1" />
