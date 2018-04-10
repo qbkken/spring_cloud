@@ -15,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud_config" target="1.8" />
       <module name="dcloud_consumer_hystrix (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
