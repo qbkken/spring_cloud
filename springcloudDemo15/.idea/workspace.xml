@@ -23,99 +23,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/resources/application.properties">
+      <file leaf-file-name="ProducerFallback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/fallback/ProducerFallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcloud_consumer_hystrix/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_client/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_client/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudConfigClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_client/src/main/java/com/qbkspringcloud/cloud_config_client/CloudConfigClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudConfigGitApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_git/src/main/java/com/qbkspringcloud/cloud_config_git/CloudConfigGitApplication.java">
+      <file leaf-file-name="ErrorFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ErrorFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendErrorFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/javFile/apache-maven-3.2.5/repository1/org/springframework/cloud/spring-cloud-netflix-core/1.4.4.RELEASE/spring-cloud-netflix-core-1.4.4.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThrowExceptionFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ThrowExceptionFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloudProducerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/CloudProducerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud_config_client/src/main/java/com/qbkspringcloud/cloud_config_client/controller/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="205">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_git/src/main/resources/application.properties">
+      <file leaf-file-name="CloudZuulApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/CloudZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="24" selection-end-column="40" />
+            <state relative-caret-position="190">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_config_git/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud_zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="25" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -150,7 +173,6 @@
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix_1/src/main/java/com/qbkspringcloud/dcloud_consumer_hystrix_1/DcloudConsumerHystrix1Application.java" />
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix_1/src/main/java/com/qbkspringcloud/dcloud_consumer_hystrix_1/service/HelloRemoteHystrix.java" />
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix_1/src/main/java/com/qbkspringcloud/dcloud_consumer_hystrix_1/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/cloud_config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud_config_git/src/main/java/com/qbkspringcloud/cloud_config_git/CloudConfigGitApplication.java" />
         <option value="$PROJECT_DIR$/cloud_config_git/src/main/resources/application.properties" />
@@ -161,7 +183,6 @@
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix_1/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud_config_git/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/CloudZuulApplication.java" />
-        <option value="$PROJECT_DIR$/cloud_zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud_producer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/dcloud_consumer1/src/main/java/com/qbkspringcloud/dcloud_consumer1/service/HelloRemote.java" />
         <option value="$PROJECT_DIR$/dcloud_consumer_hystrix/src/main/java/com/qbkspringcloud/dcloud_consumer1/service/HelloRemote.java" />
@@ -171,6 +192,12 @@
         <option value="$PROJECT_DIR$/cloud_config_client/src/main/java/com/qbkspringcloud/cloud_config_client/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/cloud_config_client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_config_client/src/main/java/com/qbkspringcloud/cloud_config_client/CloudConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/fallback/ProducerFallback.java" />
+        <option value="$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ErrorFilter.java" />
+        <option value="$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ThrowExceptionFilter.java" />
+        <option value="$PROJECT_DIR$/cloud_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -198,36 +225,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud_config_client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud_config_client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud_config_client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud_config_git" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud_config_git" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="86" />
-    <option name="width" value="1400" />
-    <option name="height" value="751" />
+    <option name="x" value="98" />
+    <option name="y" value="74" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -244,6 +257,59 @@
               <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudDemo15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudDemo15" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,7 +325,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dcloud_consumer_hystrix_1/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blogserver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -290,7 +356,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.32380953" />
+    <option name="contentProportion" value="0.35677657" />
   </component>
   <component name="RunManager" selected="Spring Boot.Cloud_ConfigClient">
     <configuration default="true" type="Application" factoryName="Application">
@@ -401,19 +467,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523263373006</updated>
-      <workItem from="1523263378942" duration="26167000" />
+      <workItem from="1523263378942" duration="40401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26167000" />
+    <option name="totallyTimeSpent" value="40401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.24426934" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.15974212" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -428,12 +495,12 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.17456022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.405954" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.42354533" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6156969" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49851632" visible="true" weight="0.37965617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49851632" visible="true" weight="0.2858166" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" sideWeight="0.5014837" side_tool="true" weight="0.3326389" />
       <window_info anchor="right" id="Theme Preview" />
@@ -460,8 +527,20 @@
           <line>16</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/fallback/ProducerFallback.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ErrorFilter.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -548,25 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/CloudProducerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud_eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -599,20 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-610">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -662,13 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/CloudZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -723,13 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -788,17 +820,125 @@
     <entry file="file://$PROJECT_DIR$/cloud_config_client/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud_config_client/src/main/java/com/qbkspringcloud/cloud_config_client/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/javFile/apache-maven-3.2.5/repository1/com/netflix/hystrix/hystrix-serialization/1.5.12/hystrix-serialization-1.5.12.jar!/com/netflix/hystrix/serial/SerialHystrixUtilization.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/CloudProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/javFile/apache-maven-3.2.5/repository1/org/springframework/cloud/spring-cloud-netflix-core/1.4.4.RELEASE/spring-cloud-netflix-core-1.4.4.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ErrorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/filter/ThrowExceptionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/fallback/ProducerFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/java/com/qbkspringcloud/cloud_zuul/CloudZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_producer/src/main/java/com/qbkspringcloud/cloud_producer/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,7 +1007,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
